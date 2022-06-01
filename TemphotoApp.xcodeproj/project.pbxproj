@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ADAAF8428452D4E006821C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAF8328452D4E006821C8 /* AppDelegate.swift */; };
+		9ADAAF8628452D4E006821C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAF8528452D4E006821C8 /* SceneDelegate.swift */; };
+		9ADAAF8828452D4E006821C8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAF8728452D4E006821C8 /* SignInVC.swift */; };
+		9ADAAF8B28452D4E006821C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADAAF8928452D4E006821C8 /* Main.storyboard */; };
+		9ADAAF8D28452D4F006821C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADAAF8C28452D4F006821C8 /* Assets.xcassets */; };
+		9ADAAF9028452D4F006821C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADAAF8E28452D4F006821C8 /* LaunchScreen.storyboard */; };
+		9ADAAF9828452D89006821C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ADAAF9728452D89006821C8 /* GoogleService-Info.plist */; };
+		9ADAAFA328453A1A006821C8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAFA228453A19006821C8 /* HomeVC.swift */; };
+		9ADAAFA528453A32006821C8 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAFA428453A32006821C8 /* UploadVC.swift */; };
+		9ADAAFA728453A41006821C8 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAFA628453A41006821C8 /* SettingsVC.swift */; };
+		9ADAAFAB28453CF4006821C8 /* TempVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAAFAA28453CF3006821C8 /* TempVC.swift */; };
+		9AE3BD852847747800C90BA9 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE3BD842847747800C90BA9 /* select.png */; };
+		9AE3BD88284778BC00C90BA9 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3BD87284778BC00C90BA9 /* UserSingleton.swift */; };
+		9AE3BD8A2847884100C90BA9 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3BD892847884100C90BA9 /* HomeCell.swift */; };
+		9AE3BD8C28478BAB00C90BA9 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3BD8B28478BAB00C90BA9 /* Snap.swift */; };
+		ED847F74EF1123F4BFA7AD54 /* Pods_TemphotoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FFB9DB402A036B6F59A9BB /* Pods_TemphotoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25183657C1541730AD9A65F3 /* Pods-TemphotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemphotoApp.debug.xcconfig"; path = "Target Support Files/Pods-TemphotoApp/Pods-TemphotoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5947CE8296898724ED8C6514 /* Pods-TemphotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemphotoApp.release.xcconfig"; path = "Target Support Files/Pods-TemphotoApp/Pods-TemphotoApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A6A57A42847CD9E00DA8068 /* TemphotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TemphotoApp.app; path = "/Users/hilal/Desktop/TemphotoApp/build/Debug-iphoneos/TemphotoApp.app"; sourceTree = "<absolute>"; };
+		9ADAAF8328452D4E006821C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ADAAF8528452D4E006821C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9ADAAF8728452D4E006821C8 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		9ADAAF8A28452D4E006821C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ADAAF8C28452D4F006821C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ADAAF8F28452D4F006821C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ADAAF9128452D4F006821C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADAAF9728452D89006821C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ADAAFA228453A19006821C8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9ADAAFA428453A32006821C8 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		9ADAAFA628453A41006821C8 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		9ADAAFAA28453CF3006821C8 /* TempVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempVC.swift; sourceTree = "<group>"; };
+		9AE3BD842847747800C90BA9 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		9AE3BD87284778BC00C90BA9 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
+		9AE3BD892847884100C90BA9 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		9AE3BD8B28478BAB00C90BA9 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		C0FFB9DB402A036B6F59A9BB /* Pods_TemphotoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemphotoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ADAAF7D28452D4E006821C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED847F74EF1123F4BFA7AD54 /* Pods_TemphotoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654EF589E52A31639B09D8E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FFB9DB402A036B6F59A9BB /* Pods_TemphotoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ADAAF7728452D4E006821C8 = {
+			isa = PBXGroup;
+			children = (
+				9ADAAF8228452D4E006821C8 /* TemphotoApp */,
+				ABCFE2D8FF3293309D20DCD4 /* Pods */,
+				654EF589E52A31639B09D8E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9ADAAF8228452D4E006821C8 /* TemphotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				9AE3BD86284778A900C90BA9 /* Model */,
+				9ADAAFA928453A5F006821C8 /* Delegates */,
+				9ADAAFA828453A48006821C8 /* ViewControllers */,
+				9ADAAF8928452D4E006821C8 /* Main.storyboard */,
+				9ADAAF8C28452D4F006821C8 /* Assets.xcassets */,
+				9AE3BD842847747800C90BA9 /* select.png */,
+				9ADAAF8E28452D4F006821C8 /* LaunchScreen.storyboard */,
+				9ADAAF9128452D4F006821C8 /* Info.plist */,
+				9ADAAF9728452D89006821C8 /* GoogleService-Info.plist */,
+			);
+			path = TemphotoApp;
+			sourceTree = "<group>";
+		};
+		9ADAAFA828453A48006821C8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ADAAF8728452D4E006821C8 /* SignInVC.swift */,
+				9ADAAFA228453A19006821C8 /* HomeVC.swift */,
+				9AE3BD892847884100C90BA9 /* HomeCell.swift */,
+				9ADAAFA428453A32006821C8 /* UploadVC.swift */,
+				9ADAAFA628453A41006821C8 /* SettingsVC.swift */,
+				9ADAAFAA28453CF3006821C8 /* TempVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9ADAAFA928453A5F006821C8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				9ADAAF8328452D4E006821C8 /* AppDelegate.swift */,
+				9ADAAF8528452D4E006821C8 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		9AE3BD86284778A900C90BA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AE3BD87284778BC00C90BA9 /* UserSingleton.swift */,
+				9AE3BD8B28478BAB00C90BA9 /* Snap.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABCFE2D8FF3293309D20DCD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25183657C1541730AD9A65F3 /* Pods-TemphotoApp.debug.xcconfig */,
+				5947CE8296898724ED8C6514 /* Pods-TemphotoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ADAAF7F28452D4E006821C8 /* TemphotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADAAF9428452D4F006821C8 /* Build configuration list for PBXNativeTarget "TemphotoApp" */;
+			buildPhases = (
+				BCE91C2F98E927C9F034797F /* [CP] Check Pods Manifest.lock */,
+				9ADAAF7C28452D4E006821C8 /* Sources */,
+				9ADAAF7D28452D4E006821C8 /* Frameworks */,
+				9ADAAF7E28452D4E006821C8 /* Resources */,
+				82EE6336A8D909D7DEBACB77 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemphotoApp;
+			productName = TemphotoApp;
+			productReference = 9A6A57A42847CD9E00DA8068 /* TemphotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ADAAF7828452D4E006821C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9ADAAF7F28452D4E006821C8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 9ADAAF7B28452D4E006821C8 /* Build configuration list for PBXProject "TemphotoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ADAAF7728452D4E006821C8;
+			productRefGroup = 9ADAAF7728452D4E006821C8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ADAAF7F28452D4E006821C8 /* TemphotoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ADAAF7E28452D4E006821C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADAAF9028452D4F006821C8 /* LaunchScreen.storyboard in Resources */,
+				9ADAAF9828452D89006821C8 /* GoogleService-Info.plist in Resources */,
+				9ADAAF8D28452D4F006821C8 /* Assets.xcassets in Resources */,
+				9ADAAF8B28452D4E006821C8 /* Main.storyboard in Resources */,
+				9AE3BD852847747800C90BA9 /* select.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82EE6336A8D909D7DEBACB77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TemphotoApp/Pods-TemphotoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TemphotoApp/Pods-TemphotoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TemphotoApp/Pods-TemphotoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE91C2F98E927C9F034797F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TemphotoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ADAAF7C28452D4E006821C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE3BD88284778BC00C90BA9 /* UserSingleton.swift in Sources */,
+				9AE3BD8C28478BAB00C90BA9 /* Snap.swift in Sources */,
+				9ADAAF8828452D4E006821C8 /* SignInVC.swift in Sources */,
+				9ADAAFA328453A1A006821C8 /* HomeVC.swift in Sources */,
+				9ADAAF8428452D4E006821C8 /* AppDelegate.swift in Sources */,
+				9ADAAFA528453A32006821C8 /* UploadVC.swift in Sources */,
+				9ADAAF8628452D4E006821C8 /* SceneDelegate.swift in Sources */,
+				9ADAAFA728453A41006821C8 /* SettingsVC.swift in Sources */,
+				9AE3BD8A2847884100C90BA9 /* HomeCell.swift in Sources */,
+				9ADAAFAB28453CF4006821C8 /* TempVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ADAAF8928452D4E006821C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADAAF8A28452D4E006821C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ADAAF8E28452D4F006821C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADAAF8F28452D4F006821C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ADAAF9228452D4F006821C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ADAAF9328452D4F006821C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ADAAF9528452D4F006821C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25183657C1541730AD9A65F3 /* Pods-TemphotoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q883FA5XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemphotoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emretekin.TemphotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9ADAAF9628452D4F006821C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5947CE8296898724ED8C6514 /* Pods-TemphotoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q883FA5XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemphotoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emretekin.TemphotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ADAAF7B28452D4E006821C8 /* Build configuration list for PBXProject "TemphotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADAAF9228452D4F006821C8 /* Debug */,
+				9ADAAF9328452D4F006821C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADAAF9428452D4F006821C8 /* Build configuration list for PBXNativeTarget "TemphotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADAAF9528452D4F006821C8 /* Debug */,
+				9ADAAF9628452D4F006821C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ADAAF7828452D4E006821C8 /* Project object */;
+}
